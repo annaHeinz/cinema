@@ -1,12 +1,10 @@
-.movie-card {
-  /* background-color: #D9D9D9; */
-  background-color: #00000008;
+.card-img {
+  max-height: 300px;
   min-height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  object-fit: cover;
 }
 
-.movie-card .ant-card-meta-title {
-  font-weight: bold;
+.card-meta {
+  text-overflow: unset;
+  white-space: unset;
 }
